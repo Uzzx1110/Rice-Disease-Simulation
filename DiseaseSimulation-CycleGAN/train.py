@@ -151,8 +151,8 @@ def main():
         transform=config.transforms,
     )
     val_dataset = HealthyDiseasedDataset(
-        root_healthy=r"D:\DiseaseSimulation-CycleGAN\data\val\healthy",
-        root_diseased=r"D:\DiseaseSimulation-CycleGAN\data\val\bacterial_leaf_blight",
+        root_healthy=r"E:\Github repos\Rice-Disease-Simulation\DiseaseSimulation-CycleGAN\data\val\healthy",
+        root_diseased=r"E:\Github repos\Rice-Disease-Simulation\DiseaseSimulation-CycleGAN\data\val\bacterial_leaf_blight",
         transform=config.transforms,
     )
     val_loader = DataLoader(
